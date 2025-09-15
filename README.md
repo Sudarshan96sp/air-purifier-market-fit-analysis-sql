@@ -1,6 +1,6 @@
 # 🧾 Conduct Market Fit Research for Air Purifier Development Using AQI Analytics 
 
-_Market research and analytics project to evaluate the demand and product-market fit for air purifiers in India using AQI, health, vehicle, and population datasets.
+Market research and analytics project to evaluate the demand and product-market fit for air purifiers in India using AQI, health, vehicle, and population datasets.
 
 ---
 
@@ -10,8 +10,6 @@ _Market research and analytics project to evaluate the demand and product-market
 - <a href="#dataset">Dataset</a>
 - <a href="#tools--technologies">Tools & Technologies used</a>
 - <a href="#project-structure">Project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
-- <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
 - <a href="#research-questions--key-findings">Key Insights</a>
 - <a href="#dashboard">Analysis</a>
 - <a href="#final-recommendations">Conclusion & Recommendations</a>
@@ -38,19 +36,21 @@ This project leverages SQL, Power BI, and external datasets to analyze pollution
 The urgency is highlighted by real-world examples: biotech entrepreneur Bryan Johnson walked out of a podcast due to poor air quality, and Delhi's Taj Hotels now display AQI readings, emphasizing the growing awareness of air quality in daily life and business decisions.
 COO Tony Sharma believes success lies in analyzing three key dimensions of the market. Tony has reached out to Peter Pandey, a Data Analyst, to assist in gathering insights for strategic decisions. The three dimensions to be analyzed are:
 
-1. Severity Mapping: Identify cities experiencing persistent or worsening AQI (Air Quality Index) levels.
-2. Health Impact Correlation: Quantify the health burden due to pollution and its impact on consumers' well-being.
-3.Demand Triggers: Examine the relationship between pollution spikes and shifts in consumer behavior related to air purifier demand.
+&nbsp;1. Severity Mapping: Identify cities experiencing persistent or worsening AQI (Air Quality Index) levels.<br>
+
+&nbsp;2. Health Impact Correlation: Quantify the health burden due to pollution and its impact on consumers' well-being.<br>
+
+ 3.Demand Triggers: Examine the relationship between pollution spikes and shifts in consumer behavior related to air purifier demand.
 While searching for reliable, real-time AQI data, the team discovered the "Dataful" platform, which provides datasets essential for answering these questions.
 
 **Task**
 
 Imagine yourself as Peter Pandey and perform the following tasks: 
 
-• Check ‘primary_and_secondary_questions.pdf’. You can use any tool of your choice (Python, SQL, Power BI, Tableau, Excel, PowerPoint) to analyse and answer these questions. More relevant instructions are provided in this document.
-• Design a dashboard with your metrics and analysis. The end users of this dashboard are top-level management and the product strategy team - hence, the dashboard should be self-explanatory and easy to understand.
-• Present your insights to Tony Sharma & team. Be creative and concise with your presentation.
-• Use your dashboard in the presentation along with the deck.
+• Check ‘primary_and_secondary_questions.pdf’. You can use any tool of your choice (Python, SQL, Power BI, Tableau, Excel, PowerPoint) to analyse and answer these questions. More relevant instructions are provided in this document.<br>
+• Design a dashboard with your metrics and analysis. The end users of this dashboard are top-level management and the product strategy team - hence, the dashboard should be self-explanatory and easy to understand.<br>
+• Present your insights to Tony Sharma & team. Be creative and concise with your presentation.<br>
+• Use your dashboard in the presentation along with the deck.<br>
 • Use additional data based on your own research to support your recommendations.
 
 
@@ -58,10 +58,10 @@ Imagine yourself as Peter Pandey and perform the following tasks:
 
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-- <a href="./datasets/aqi_data.csv">aqi: Day-wise, State-wise Air Quality Index (AQI) of Major Cities and Towns in India</a><br>
-- <a href="./datasets/health_data.csv">idsp: State, District, and Disease-wise Cases and Deaths reported due to Outbreak of Diseases as per Weekly reports under IDSP</a><br>
-- <a href="./datasets/vehicles_data.csv">population_projection: Population Projection of India: State- and Gender-wise Yearly Projected Urban Population (2011-2036)</a><br>
-- <a href="./datasets/population_data.csv">vahan: State, Vehicle Class and Fuel Type-wise Total Number of Vehicles Registered in Each Month in India</a><br>
+- <a href="./datasets/aqi.csv">aqi: Day-wise, State-wise Air Quality Index (AQI) of Major Cities and Towns in India</a><br>
+- <a href="./datasets/idsp.csv">idsp: State, District, and Disease-wise Cases and Deaths reported due to Outbreak of Diseases as per Weekly reports under IDSP</a><br>
+- <a href="./datasets/population_projection.csv">population_projection: Population Projection of India: State- and Gender-wise Yearly Projected Urban Population (2011-2036)</a><br>
+- <a href="./datasets/vahan.csv">vahan: State, Vehicle Class and Fuel Type-wise Total Number of Vehicles Registered in Each Month in India</a><br>
 
 ---
 
@@ -83,8 +83,6 @@ Imagine yourself as Peter Pandey and perform the following tasks:
 air-purifier-market-fit-analysis-sql/
 │
 ├── README.md
-├── .gitignore
-├── meta_data.txt
 │
 ├── analysis/  
 │   ├── Conclusion & Recommendations.pdf
