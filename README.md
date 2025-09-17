@@ -68,7 +68,6 @@ Imagine yourself as Peter Pandey and perform the following tasks:
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies used</h2>
 
 - SQL
-- Power BI
 - Excel
 - Power Query
 - GitHub
